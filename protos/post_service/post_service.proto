@@ -1,0 +1,11 @@
+syntax="proto3";
+
+package post_service;
+option go_package="genproto/post_service";
+
+import "google/protobuf/empty.proto";
+import "post.proto";
+
+service PostService {
+    rpc Reload(PostReloadReq) returns (google.protobuf.Empty);
+}

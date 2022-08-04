@@ -1,0 +1,4 @@
+make: Entering directory `/Volumes/Abdurashid/Khusan/MyGo/TestTech/post_api_gateway'
+docker-compose -f docker-compose.yml up --force-recreate
+make: Leaving directory `/Volumes/Abdurashid/Khusan/MyGo/TestTech/post_api_gateway'
+ 

@@ -1,0 +1,1 @@
+{"buildTargets":["build","build-image","clear","clone-protos","config","make","mark-as-production-image","migrate-down","migrate-up","network","proto-gen","pull-proto-module","push-image","run","swag-init","test","update-proto-module"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}

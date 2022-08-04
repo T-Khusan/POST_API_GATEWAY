@@ -1,0 +1,14 @@
+syntax="proto3";
+
+package crud_service;
+option go_package="genproto/crud_service";
+
+import "google/protobuf/empty.proto";
+import "crud.proto";
+
+service CrudService {
+    rpc GetAll(ListReq) returns (ListRespPost) {}
+    rpc Get(ById) returns (Post) {}
+    rpc Update(Post) returns (google.protobuf.Empty) {}
+    rpc Delete(ById) returns (google.protobuf.Empty) {}
+}
